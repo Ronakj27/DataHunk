@@ -13,7 +13,10 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Link to="/" className="text-2xl font-bold text-blue-600">DataHunk</Link>
+            <Link to="/" className="text-2xl font-bold">
+  <span className="text-black">Data</span>
+  <span className="text-blue-600">Hunk</span>
+</Link>
           </div>
 
           {/* Desktop Menu */}
