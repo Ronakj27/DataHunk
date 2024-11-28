@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link to="/">
-  <img src="src\components\ui\datahunk.svg" alt="DataHunk Logo" className="w-21 h-9" />
+  <img src=".\src\components\ui\datahunk.svg" alt="DataHunk Logo" className="w-21 h-9" />
 </Link>
           </div>
 
