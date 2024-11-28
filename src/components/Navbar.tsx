@@ -13,7 +13,9 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Link to="/" className="text-2xl font-bold text-blue-600">DataHunk</Link>
+            <Link to="/">
+  <img src="src\components\ui\datahunk.svg" alt="DataHunk Logo" className="w-21 h-9" />
+</Link>
           </div>
 
           {/* Desktop Menu */}
